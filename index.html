@@ -3437,6 +3437,204 @@ section.hero .hero-frame-inner img {
     padding: 9px 10px !important;
   }
 }
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 0 !important;
+    padding: 72px 0 28px !important;
+    overflow: visible !important;
+  }
+
+  .hero-content,
+  section.hero .hero-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 18px !important;
+    padding: 0 14px 8px !important;
+    align-items: stretch !important;
+  }
+
+  .hero-left,
+  section.hero .hero-left {
+    order: 1 !important;
+    text-align: center !important;
+    padding-top: 0 !important;
+  }
+
+  .hero-right,
+  section.hero .hero-right {
+    order: 2 !important;
+    margin-top: 0 !important;
+    justify-content: center !important;
+  }
+
+  .hero-title {
+    font-size: clamp(24px, 8vw, 34px) !important;
+    line-height: 1.06 !important;
+    letter-spacing: -0.2px !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  .hero-sub {
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+    max-width: 320px !important;
+    margin: 0 auto 4px !important;
+  }
+
+  .hero-body {
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+    max-width: 330px !important;
+    margin: 0 auto 10px !important;
+  }
+
+  .hero-cta {
+    margin-top: 10px !important;
+  }
+
+  .hero-frame-outer {
+    width: min(100%, 240px) !important;
+    max-width: 240px !important;
+    padding: 6px !important;
+    margin: 0 auto !important;
+  }
+
+  .hero-frame-inner {
+    width: 100% !important;
+    height: 290px !important;
+  }
+
+  .hero-frame-inner img {
+    object-fit: cover !important;
+    object-position: center top !important;
+  }
+
+  .hero-iyengar-quote,
+  .hero-portrait-stars,
+  .hero-guruji-quote,
+  .hero-mini-stats,
+  .hero-trust,
+  .hero-cert-strip,
+  .hero-social-proof,
+  .hero-urgency {
+    display: none !important;
+  }
+
+  .founder-grid {
+    gap: 24px !important;
+  }
+
+  .founder-images {
+    width: min(100%, 250px) !important;
+    max-width: 250px !important;
+    margin: 0 auto !important;
+  }
+
+  .founder-primary {
+    max-width: 250px !important;
+    height: 310px !important;
+    margin: 0 auto !important;
+  }
+
+  .founder-secondary {
+    width: 88px !important;
+    height: 108px !important;
+    right: -4px !important;
+    bottom: -8px !important;
+  }
+
+  .depth-badge {
+    display: none !important;
+  }
+
+  .founder-name {
+    font-size: clamp(26px, 8vw, 34px) !important;
+    line-height: 1.08 !important;
+  }
+
+  .founder-story {
+    font-size: 15px !important;
+    line-height: 1.75 !important;
+  }
+
+  .founder-quals {
+    gap: 8px !important;
+  }
+
+  .founder-cta {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  .founder-cta .btn,
+  .founder-cta .btn-outline,
+  .founder-cta .btn-founder {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .haridwar-team {
+    padding: 64px 0 !important;
+  }
+
+  .haridwar-header {
+    margin-bottom: 28px !important;
+  }
+
+  .haridwar-grid {
+    gap: 18px !important;
+  }
+
+  .haridwar-card {
+    border-radius: 24px !important;
+  }
+
+  .haridwar-photo {
+    height: 280px !important;
+  }
+
+  .haridwar-body {
+    padding: 22px 18px 26px !important;
+  }
+
+  .haridwar-name {
+    font-size: clamp(24px, 7.5vw, 32px) !important;
+    line-height: 1.1 !important;
+  }
+
+  .haridwar-role,
+  .haridwar-meta,
+  .haridwar-copy,
+  .haridwar-address {
+    text-align: center !important;
+  }
+
+  .haridwar-address {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 6px !important;
+  }
+
+  .haridwar-address-line {
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+    border-bottom: 0 !important;
+    line-height: 1.55 !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    text-align: center !important;
+  }
+
+  .g-cell img {
+    object-position: center 20% !important;
+  }
+}
 </style>
 
   <script src="js/ui.js"></script>
